@@ -1,5 +1,5 @@
 .button-menu {
-    background: linear-gradient(to right, black, #2c3353, #afafaf);
+    background: linear-gradient(to right, black, #2c2c2c, #afafaf);
     border: none;
     color: white;
     padding: 10px 20px;
@@ -14,40 +14,43 @@
     cursor: pointer;
     text-shadow: 2px 2px 4px rgba(102, 102, 102, 0.7);
     border-radius: 5px;
+    height: 40px;
+    border-radius: 8px;
 }
 .button:hover {
     background-color: #696969;
-    color: white;
+    color: #3d3d3d;
 }
 #button1 {
-    background-color: #696969;
+    background-color: #c0392b;
     color: white;
     border: none;
 }
 #button2 {
-    background-color: #696969;
+    background-color: #c0392b;
     color: white;
     border: none;
 }
 #button3 {
-    background-color: #696969;
+    background-color: #c0392b;
     color: white;
     border: none;
 }
 .body {
     font-family: 'Old Standard TT', serif;
     background-color: rgb(230, 230, 230);
+    padding: 10px;
 }
 .image1 {
     background-position: center;
     height: auto;
     width: 100%;
     border-radius: 20px;
+    background-color: rgba(255, 0, 0, 0.233);
 }
 h1 {
-    position: sticky;
     top: 30%;
-    color: #25293A;
+    color: #c0392b;
     text-shadow: 2px 2px 4px rgba(102, 102, 102, 0.7);
     font-size: 7vw;
     margin-top: auto;
@@ -56,7 +59,7 @@ h1 {
 .footer {
     text-align: center;
     padding: 10px;
-    background-color: #696969;
+    background-color: #2c2c2c;
     color: #c9c9c9;
     font-size: 14px;
     width: 100%;
