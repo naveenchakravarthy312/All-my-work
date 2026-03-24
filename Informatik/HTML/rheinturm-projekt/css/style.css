@@ -116,12 +116,12 @@ table {
     background: linear-gradient(to right, rgb(0, 0, 0), #808080, #C0392B);
     padding: 20px;
     color: white;
-    border-radius: 5px;
 }
 .table-header {
     color: white;
     padding: 10px;
     border: 1px solid #E6E6E6;
+    border-radius: 10px;
 }
 .table-row {
     border: 1px solid #E6E6E6;
