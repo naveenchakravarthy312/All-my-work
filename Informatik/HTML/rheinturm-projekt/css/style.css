@@ -63,6 +63,13 @@
     font-family: 'Old Standard TT', serif;
     background-color: rgb(230, 230, 230);
 }
+#grey-scale {
+    background-color: black;
+     filter: grayscale(50%); color: white;
+}
+#contrast {
+    filter: contrast(200%);
+}
 .main {
     padding: 10px;
 }
