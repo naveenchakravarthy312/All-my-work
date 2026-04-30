@@ -1,3 +1,0 @@
-git add .
-git commit --no-gpg-sign -m "Save my work"
-git push origin main
