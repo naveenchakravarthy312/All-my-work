@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <title>Mathematik Rechnung</title>
+        <meta name="author" content="Naveen Chakravarthy Mohankumar">
+        <meta name="date" content="01.05.2026">
+    </head>
+
+    <body>
+        <script>
+            // Werten
+            var brutto = 240;
+            var USt = 20;
+
+            // Rechnung
+            var steuer = brutto / (100 + USt) * USt;
+
+            // Ausgabe
+            document.write("Die Umsatzsteuer beträgt € ");
+            document.write(steuer);
+            var ausgabe = " bei einem Steuersatz von " + USt + " Prozent";
+            document.write(ausgabe);
+        </script>
+    </body>
+</html>
